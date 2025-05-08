@@ -39,7 +39,7 @@ def smart_goal_formatter(topic):
     return topic
 
 # Gemini AI API key
-generativeai.configure(api_key="AIzaSyAsBwPZE43CDhUCnzY_bTVUJ-NnOBdhdfo")
+generativeai.configure(api_key="")
 model = generativeai.GenerativeModel(model_name="gemini-1.5-pro")
 chat = model.start_chat(history=[])
 
